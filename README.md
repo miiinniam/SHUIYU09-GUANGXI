@@ -190,7 +190,7 @@
 
 > 无需安装，手机浏览器直接打开
 
-🔗 **[https://shuiyu.vercel.app](https://shuiyu.vercel.app)**
+🔗 **https://shuiyu09.vercel.app/**
 
 ```
 📱 加入方式：

@@ -1,0 +1,13 @@
+{
+  "name": "shuiyu-dealer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-static.mjs",
+    "preview": "python3 -m http.server 4173 -d dist",
+    "lan": "node scripts/local-lan-server.mjs",
+    "check": "npm test && npm run build",
+    "test": "node --test"
+  }
+}

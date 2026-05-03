@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "rooms": {
+      "$roomId": {
+        ".read": "$roomId.matches(/^[0-9]{4}$/)",
+        ".write": "$roomId.matches(/^[0-9]{4}$/)",
+        ".validate": "newData.hasChildren(['roomId', 'isVariant', 'deck', 'dealer', 'createdAt', 'currentRound', 'status', 'players'])"
+      }
+    }
+  }
+}
